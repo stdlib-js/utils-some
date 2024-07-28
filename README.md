@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-some/tags). For example,
+
+```javascript
 import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some@v0.2.2-esm/index.mjs';
 ```
 
@@ -105,7 +110,7 @@ var bool = some( [], 1 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some@v0.2.2-esm/index.mjs';
+import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some@esm/index.mjs';
 
 var bool;
 var arr;
