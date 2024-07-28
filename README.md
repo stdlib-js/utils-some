@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some@deno/mod.js';
+import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some@v0.2.2-deno/mod.js';
 ```
 
 #### some( collection, n )
@@ -100,7 +100,7 @@ var bool = some( [], 1 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some@deno/mod.js';
+import some from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-some@v0.2.2-deno/mod.js';
 
 var bool;
 var arr;
