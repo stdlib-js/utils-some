@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-some",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test whether a collection contains at least `n` elements which are truthy.",
   "license": "Apache-2.0",
   "author": {
@@ -37,11 +37,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-collection": "^0.2.2",
-    "@stdlib/assert-is-positive-integer": "^0.2.2",
+    "@stdlib/assert-is-collection": "^0.2.3",
+    "@stdlib/assert-is-positive-integer": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.2",
